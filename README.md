@@ -1,22 +1,23 @@
 # SOEN 341 project
  online shopping ecommerce store
  
- done By:
- Fahad Abdul Rahman 40157997 UUUD GitHub- https://github.com/IcedCaffeine
+ # Team Members:
+ 
+ Fahad Abdul Rahman 40157997 UUUD GitHub- https://github.com/IcedCaffeine (Front-end)
 
- Aly Hussein 40167083 UUUD GitHub- https://github.com/Aly-Hussein
+ Aly Hussein 40167083 UUUD GitHub- https://github.com/Aly-Hussein (Front-end)
 
- Michael Younes 40173997 UUUA GitHub- https://github.com/MKMicheal
+ Michael Younes 40173997 UUUA GitHub- https://github.com/MKMicheal (Front-end)
 
- Jonathan Pauze 40177730 UUUA GitHub- https://github.com/BigSaladMan
+ Jonathan Pauze 40177730 UUUA GitHub- https://github.com/BigSaladMan (Back-end)
 
- Yves chuenmogne 40129773 UUUC GitHub-
+ Yves chuenmogne 40129773 UUUC GitHub- (Back-end)
 
- Zachary Zalass 40098539 UUUB GitHub- https://github.com/trolledbypro
+ Zachary Zalass 40098539 UUUB GitHub- https://github.com/trolledbypro (Back-end)
 
- Brayden Tsitirides 40176018 UUUD GitHub- https://github.com/tsitirides
+ Brayden Tsitirides 40176018 UUUD GitHub- https://github.com/tsitirides (Front-end)
 
- Ruso Kanapathipillai 40133397 UUUB GitHub-
+ Ruso Kanapathipillai 40133397 UUUB GitHub- (Back-end)
 
 # Languages/Techniques:
 
