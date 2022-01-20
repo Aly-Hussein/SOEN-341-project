@@ -38,4 +38,4 @@
  
  # Description
  
-We want to create an online store that allows people to browse through items, add them to their cart, edit their card if need be, and then proceed to checking out and purchasing the products
+We want to create an online store that allows people to browse through items, add them to their cart, edit their card if need be, and then proceed to checking out and purchasing the products.
