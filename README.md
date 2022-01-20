@@ -20,6 +20,8 @@
 
 # Languages/Techniques:
 
-ASP.NET
-SQL
-C#
+ASP.NET (Front-End)
+
+SQL (DataBase)
+
+C# (Back-End)
