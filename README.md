@@ -1,5 +1,6 @@
 # SOEN 341 project
  online shopping ecommerce store
+ 
  done By:
  Fahad Abdul Rahman 40157997 UUUD GitHub- https://github.com/IcedCaffeine
 
@@ -16,3 +17,9 @@
  Brayden Tsitirides 40176018 UUUD GitHub- https://github.com/tsitirides
 
  Ruso Kanapathipillai 40133397 UUUB GitHub-
+
+# Languages/Techniques:
+
+ASP.NET
+SQL
+C#
