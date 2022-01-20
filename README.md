@@ -1,5 +1,5 @@
 # SOEN 341 project
- online shopping ecommerce store
+ Builiding an online shopping website
  
  # Team Members:
  
@@ -31,12 +31,12 @@
  
  Browsing for available items
  
- adding items to the shopping cart
+ Adding items to the shopping cart
  
  Checking out
  
- Developping a simplyfied version of Amazon / an online shopping website.
+ To develop a simplified version of Amazon / an online shopping website.
  
  # Description
  
-We want to create an online store that allows people to browse through items, add them to their cart, edit their card if need be, and then proceed to checking out and purchasing the products.
+We want to create an online store that allows people to browse through items, add them to their cart, edit their cart if needed, and then proceed to checkout to purchase the items.
