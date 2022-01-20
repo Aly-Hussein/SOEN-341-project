@@ -20,8 +20,16 @@
 
 # Languages/Techniques:
 
-ASP.NET (Front-End)
+ ASP.NET (Front-End)
 
-SQL (DataBase)
+ SQL (DataBase)
 
-C# (Back-End)
+ C# (Back-End)
+
+ # Core Features/objectives
+ 
+ Browsing for available items
+ 
+ adding items to the shopping cart
+ 
+ Checking out
