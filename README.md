@@ -11,7 +11,7 @@
 
  Jonathan Pauze 40177730 UUUA GitHub- https://github.com/BigSaladMan (Back-end)
 
- Yves chuenmogne 40129773 UUUC GitHub-https://github.com/yvich
+ Yves chuenmogne 40129773 UUUC GitHub-https://github.com/yvich (Back-end)
 
  Zachary Zalass 40098539 UUUB GitHub- https://github.com/trolledbypro (Back-end)
 
