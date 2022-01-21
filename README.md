@@ -29,13 +29,17 @@
 
  # Core Features/objectives
  
- Browsing for available items
- 
- Adding items to the shopping cart
- 
- Checking out
- 
  To develop a simplified version of Amazon / an online shopping website.
+ 
+ Two types of users can register: Sellers and Buyers.
+ 
+ Sellers can add, modify or remove their products, and view total sales.
+ 
+ Buyers can browse through product categories, click on products, select quantities and add to cart, modify their cart and purchase items.
+ 
+ Buyers can view or cancel their orders.
+
+
  
  # Description
  
