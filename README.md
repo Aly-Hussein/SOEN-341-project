@@ -17,7 +17,7 @@
 
  Brayden Tsitirides 40176018 UUUD GitHub- https://github.com/tsitirides (Front-end)
 
- Ruso Kanapathipillai 40133397 UUUB GitHub- (Back-end)
+ Ruso Kanapathipillai 40133397 UUUB GitHub- https://github.com/Rusoooo (Back-end)
 
 # Languages/Techniques:
 
