@@ -1,5 +1,5 @@
 # SOEN 341 project
- Builiding an online shopping website
+ Building an online shopping website
  
  # Team Members:
  
