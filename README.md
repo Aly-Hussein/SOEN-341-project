@@ -21,7 +21,7 @@
 
 # Languages/Techniques:
 
- ASP.NET (Front-End)
+ ASP.NET, HTML, CSS, JS (Front-End)
 
  SQL (DataBase)
 
