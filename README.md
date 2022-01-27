@@ -23,7 +23,7 @@
 
  ASP.NET, HTML, CSS, JS (Front-End)
 
- SQL (tbd) (DataBase)
+ SQL (DataBase)
 
  C# (Back-End)
 
