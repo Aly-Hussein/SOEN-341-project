@@ -1,7 +1,7 @@
 # SOEN 341 project
  Building an online shopping website
  
- # Team Members:
+ ## Team Members:
  
  Fahad Abdul Rahman 40157997 UUUD GitHub- https://github.com/IcedCaffeine (Front-end)
 
@@ -19,7 +19,7 @@
 
  Ruso Kanapathipillai 40133397 UUUB GitHub- https://github.com/Rusoooo (Back-end)
 
-# Languages/Techniques:
+## Languages/Techniques:
 
  ASP.NET, HTML, CSS, JS (Front-End)
 
@@ -27,7 +27,7 @@
 
  C# (Back-End)
 
- # Core Features/objectives
+ ## Core Features/objectives
  
  To develop a simplified version of Amazon / an online shopping website.
  
@@ -41,6 +41,8 @@
 
 
  
- # Description
+ ## Description
  
 We want to create an online store that allows people to browse through items, add them to their cart, edit their cart if needed, and then proceed to checkout to purchase the items.
+
+The Buyer will have access to the products detail, the sellers name, the availability of the product (number of stocks) and the price of the item.
