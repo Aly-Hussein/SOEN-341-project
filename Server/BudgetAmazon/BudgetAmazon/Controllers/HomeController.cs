@@ -31,7 +31,7 @@ namespace BudgetAmazon.Controllers
         {
             return View();
         }
-          public IActionResult add_to_cart(int productId)
+          public IActionResult AddToCart(int productId)
         {
             if (Session["cart"] == null)
             {
@@ -76,7 +76,7 @@ namespace BudgetAmazon.Controllers
         }
 
         
-        public IActionResult remove_from_cart(int productId)
+        public IActionResult RemoveFromCart(int productId)
         {
             List<Item> cart = (List<Item>)Session["cart"];
             foreach (var item in cart)
