@@ -15,7 +15,7 @@ namespace BudgetAmazon.Models
     public partial class Item
     {
         public System.Guid ItemId { get; set; }
-        public int CaegoryId { get; set; }
+        public int CategoryId { get; set; }
         public string ItemCode { get; set; }
         public string ItemName { get; set; }
         public string Description { get; set; }

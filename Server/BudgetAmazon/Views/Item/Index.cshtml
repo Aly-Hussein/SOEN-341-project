@@ -13,7 +13,7 @@
     });
 
     function ResetItem() {
-        $("#CatagoryID").val();
+        $("#CategoryId").val();
         $("#ItemCode").val();
         $("#ItemName").val();
         $("#Description").val();
@@ -22,24 +22,28 @@
     }
 
     function SaveItem() {
-        var FormData = new FormDate;
-        formData.append("CatagoryID", $("#CatagoryID").val());
+        var FormData = new FormData();
+        formData.append("CategoryId", $("#CategoryId").val());
         formData.append("ItemCode", $("#ItemCode").val());
         formData.append("ItemName", $("#ItemName").val());
         formData.append("Description", $("#Description").val());
         formData.append("ItemPrice", $("#ItemPrice").val());
-        formData.append("ImagePath", $("#ImagePath").get(0).items[0]);
+        formData.append("ImagePath", $("#ImagePath").get(0).files[0]);
 
         $.ajax({
             async: true,
             dataType: 'JSON',
             type: 'POST',
             contentType: false,
-            processorType: false,
+            processDate: false,
             url: '/Item/Index',
             data: formDate,
-            success: function(data) {
-                alert(data);
+            success: function (data) {
+                if (data.success) {
+                    alert(data.Message);
+                    ResetItem();
+                }
+                
             },
             error: function (data) {
                 alert('There is a problem adding items.');
