@@ -29,7 +29,8 @@ namespace BudgetAmazon.Controllers
             return View(objItemViewModel);
         }
 
-        public JsonResult Index()
+        [HttpPost]
+        public JsonResult Index(ItemViewModel objItemViewModel)
         {
             return Json(data:"HHHH", JsonRequestBehavior.AllowGet);
         }
