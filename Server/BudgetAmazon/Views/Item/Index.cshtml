@@ -5,6 +5,19 @@
 
 <h2>Index</h2>
 
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btnSave").click(function () {
+            SaveItem();
+        });
+    });
+    function SaveItem() {
+        var FormData = new FormDate;
+        formData.append("CatagoryID", $("#CatagoryID").val());
+        formData.append("ItemCode", $("#ItemCode").val());
+        formData.append("ItemName", $("#ItemName").val());
+    }
+</script>
 <div class="container">
     <div class="col-md-4">
         <div class="form-group">
@@ -48,5 +61,11 @@
             @Html.TextBoxFor(model => model.ImagePath, new { type = "file", @class = "form-control" })
 
         </div>
+    </div>
+
+    <div>
+        <input type="button" value="Save" name="save" class="btn btn-primary" id="btnSave"/>
+        &nbsp;
+        <input type="button" value="Reset" name="reset" class="btn btn-danger" />
     </div>
 </div>
