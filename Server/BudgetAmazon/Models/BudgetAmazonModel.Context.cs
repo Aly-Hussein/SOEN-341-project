@@ -13,10 +13,10 @@ namespace BudgetAmazon.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class BudgetAmazonEntities : DbContext
+    public partial class BudgetAmazonEntities1 : DbContext
     {
-        public BudgetAmazonEntities()
-            : base("name=BudgetAmazonEntities")
+        public BudgetAmazonEntities1()
+            : base("name=BudgetAmazonEntities1")
         {
         }
     

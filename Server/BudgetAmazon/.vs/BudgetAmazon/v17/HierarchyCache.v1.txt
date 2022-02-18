@@ -1,0 +1,359 @@
+﻿++Solution 'BudgetAmazon' ‎(2 of 2 projects)
+i:{00000000-0000-0000-0000-000000000000}:BudgetAmazon.sln
+++BudgetAmazon.Tests
+i:{00000000-0000-0000-0000-000000000000}:BudgetAmazon.Tests
+++Properties
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:d:\github codes\soen-341-project\server\budgetamazon.tests\properties\
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\properties\
+++References
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Controllers
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:d:\github codes\soen-341-project\server\budgetamazon.tests\controllers\
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\controllers\
+++App.config
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:d:\github codes\soen-341-project\server\budgetamazon.tests\app.config
+++packages.config
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:d:\github codes\soen-341-project\server\budgetamazon.tests\packages.config
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\packages.config
+++AssemblyInfo.cs
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:d:\github codes\soen-341-project\server\budgetamazon.tests\properties\assemblyinfo.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\properties\assemblyinfo.cs
+++BudgetAmazon
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{00000000-0000-0000-0000-000000000000}:BudgetAmazon
+++Microsoft.CSharp
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.VisualStudio.TestPlatform.TestFramework
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+++Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+++Microsoft.Web.Infrastructure
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Newtonsoft.Json
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.ComponentModel.DataAnnotations
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Configuration
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Core
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Data
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Net.Http
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Net.Http.WebRequest
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.Abstractions
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.ApplicationServices
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.Extensions
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.Helpers
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.Mvc
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.Razor
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.Routing
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.WebPages
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.WebPages.Deployment
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.WebPages.Razor
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Xml
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Xml.Linq
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++HomeControllerTest.cs
+i:{c85762c9-07b5-4629-983f-6db6e91056e1}:d:\github codes\soen-341-project\server\budgetamazon.tests\controllers\homecontrollertest.cs
+++Antlr3.Runtime
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++EntityFramework
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++EntityFramework.SqlServer
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.AspNet.Identity.Core
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.AspNet.Identity.EntityFramework
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.AspNet.Identity.Owin
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.Owin
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.Owin.Host.SystemWeb
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.Owin.Security
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.Owin.Security.Cookies
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.Owin.Security.Google
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.Owin.Security.MicrosoftAccount
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.Owin.Security.OAuth
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.Owin.Security.Twitter
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Owin
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Data.DataSetExtensions
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Drawing
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.EnterpriseServices
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Runtime.Serialization
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Security
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.DynamicData
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.Entity
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.Optimization
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++System.Web.Services
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++WebGrease
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++App_Data
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\app_data\
+++App_Start
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\app_start\
+++BundleConfig.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\app_start\bundleconfig.cs
+++FilterConfig.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\app_start\filterconfig.cs
+++IdentityConfig.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\app_start\identityconfig.cs
+++RouteConfig.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\app_start\routeconfig.cs
+++Startup.Auth.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\app_start\startup.auth.cs
+++Content
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\content\
+++bootstrap-theme.css
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\content\bootstrap-theme.css
+++bootstrap-theme.css.map
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\content\bootstrap-theme.css.map
+++bootstrap-theme.min.css
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\content\bootstrap-theme.min.css
+++bootstrap-theme.min.css.map
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\content\bootstrap-theme.min.css.map
+++bootstrap.css
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\content\bootstrap.css
+++bootstrap.css.map
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\content\bootstrap.css.map
+++bootstrap.min.css
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\content\bootstrap.min.css
+++bootstrap.min.css.map
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\content\bootstrap.min.css.map
+++Site.css
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\content\site.css
+++AccountController.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\controllers\accountcontroller.cs
+++HomeController.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\controllers\homecontroller.cs
+++ItemController.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\controllers\itemcontroller.cs
+++ManageController.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\controllers\managecontroller.cs
+++ShoppingController.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\controllers\shoppingcontroller.cs
+++fonts
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\fonts\
+++Models
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\
+++Scripts
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\
+++ViewModel
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\viewmodel\
+++Views
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\
+++Account
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\
+++Home
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\home\
+++Item
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\item\
+++Index.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\item\index.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\home\index.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\manage\index.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\shopping\index.cshtml
+++Manage
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\manage\
+++Shared
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\shared\
+++Shopping
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\shopping\
+++_ViewStart.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\_viewstart.cshtml
+++Web.config
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\web.config
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\web.config
+++favicon.ico
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\favicon.ico
+++Global.asax
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\global.asax
+++Startup.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\startup.cs
+++Web.Debug.config
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\web.debug.config
+++Web.Release.config
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\web.release.config
+++glyphicons-halflings-regular.eot
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\fonts\glyphicons-halflings-regular.eot
+++glyphicons-halflings-regular.svg
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\fonts\glyphicons-halflings-regular.svg
+++glyphicons-halflings-regular.ttf
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\fonts\glyphicons-halflings-regular.ttf
+++glyphicons-halflings-regular.woff
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\fonts\glyphicons-halflings-regular.woff
+++glyphicons-halflings-regular.woff2
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\fonts\glyphicons-halflings-regular.woff2
+++AccountViewModels.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\accountviewmodels.cs
+++ECartDB.edmx
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\ecartdb.edmx
+++IdentityModels.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\identitymodels.cs
+++ManageViewModels.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\manageviewmodels.cs
+++bootstrap.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\bootstrap.js
+++bootstrap.min.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\bootstrap.min.js
+++jquery-3.4.1.intellisense.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery-3.4.1.intellisense.js
+++jquery-3.4.1.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery-3.4.1.js
+++jquery-3.4.1.min.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery-3.4.1.min.js
+++jquery-3.4.1.min.map
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery-3.4.1.min.map
+++jquery-3.4.1.slim.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery-3.4.1.slim.js
+++jquery-3.4.1.slim.min.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery-3.4.1.slim.min.js
+++jquery-3.4.1.slim.min.map
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery-3.4.1.slim.min.map
+++jquery.validate-vsdoc.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery.validate-vsdoc.js
+++jquery.validate.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery.validate.js
+++jquery.validate.min.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery.validate.min.js
+++jquery.validate.unobtrusive.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery.validate.unobtrusive.js
+++jquery.validate.unobtrusive.min.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\jquery.validate.unobtrusive.min.js
+++modernizr-2.8.3.js
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\scripts\modernizr-2.8.3.js
+++CategoryViewModel.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\viewmodel\categoryviewmodel.cs
+++ItemViewModel.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\viewmodel\itemviewmodel.cs
+++_ExternalLoginsListPartial.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\_externalloginslistpartial.cshtml
+++ConfirmEmail.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\confirmemail.cshtml
+++ExternalLoginConfirmation.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\externalloginconfirmation.cshtml
+++ExternalLoginFailure.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\externalloginfailure.cshtml
+++ForgotPassword.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\forgotpassword.cshtml
+++ForgotPasswordConfirmation.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\forgotpasswordconfirmation.cshtml
+++Login.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\login.cshtml
+++Register.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\register.cshtml
+++ResetPassword.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\resetpassword.cshtml
+++ResetPasswordConfirmation.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\resetpasswordconfirmation.cshtml
+++SendCode.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\sendcode.cshtml
+++VerifyCode.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\account\verifycode.cshtml
+++About.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\home\about.cshtml
+++Contact.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\home\contact.cshtml
+++Service.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\home\service.cshtml
+++AddPhoneNumber.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\manage\addphonenumber.cshtml
+++ChangePassword.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\manage\changepassword.cshtml
+++ManageLogins.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\manage\managelogins.cshtml
+++SetPassword.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\manage\setpassword.cshtml
+++VerifyPhoneNumber.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\manage\verifyphonenumber.cshtml
+++_Layout.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\shared\_loginpartial.cshtml
+++Error.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\shared\error.cshtml
+++Lockout.cshtml
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\views\shared\lockout.cshtml
+++Global.asax.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\global.asax.cs
+++ECartDB.Context.tt
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\ecartdb.context.tt
+++ECartDB.Designer.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\ecartdb.designer.cs
+++ECartDB.edmx.diagram
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\ecartdb.edmx.diagram
+++ECartDB.tt
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\ecartdb.tt
+++ECartDB.Context.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\ecartdb.context.cs
+++Category.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\category.cs
+++ECartDB.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\ecartdb.cs
+++Item.cs
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:d:\github codes\soen-341-project\server\budgetamazon\models\item.cs
+++Microsoft.Configuration.ConfigurationBuilders.Base
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
+++Microsoft.Configuration.ConfigurationBuilders.UserSecrets
+i:{f60a9515-e514-4a01-aea5-90ed4d49e61a}:
