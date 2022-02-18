@@ -10,11 +10,11 @@ namespace BudgetAmazon.Controllers
 {
     public class ShoppingController : Controller
     {
-        private BudgetAmazonEntities objBudgetAmazonEntities;
+        private BudgetAmazonEntities1 objBudgetAmazonEntities;
         // GET: Shopping
         public ShoppingController()
         {
-            objBudgetAmazonEntities = new BudgetAmazonEntities();
+            objBudgetAmazonEntities = new BudgetAmazonEntities1();
         }
         public ActionResult Index()
         {
@@ -25,7 +25,7 @@ namespace BudgetAmazon.Controllers
                                                                        select new ShoppingViewModel()
                                                                        {
                                                                            ImagePath = objItem.ImagePath,
-                                                                           ItemName =  objItem.ItemName,
+                                                                           ItemName = objItem.ItemName,
                                                                            Description = objItem.Description,
                                                                            ItemPrice = objItem.ItemPrice,
                                                                            ItemId = objItem.ItemId,
