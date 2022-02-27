@@ -11,10 +11,10 @@ namespace BudgetAmazon.Controllers
 {
     public class ItemController : Controller
     {
-        private BudgetAmazonEntities1 objBudgetAmazonEntities;
+        private BudgetAmazonEntities3 objBudgetAmazonEntities;
         public ItemController()
         {
-            objBudgetAmazonEntities = new BudgetAmazonEntities1();
+            objBudgetAmazonEntities = new BudgetAmazonEntities3();
 
         }
         // GET: Item

@@ -10,11 +10,11 @@ namespace BudgetAmazon.Controllers
 {
     public class ShoppingController : Controller
     {
-        private BudgetAmazonEntities1 objBudgetAmazonEntities;
+        private BudgetAmazonEntities3 objBudgetAmazonEntities;
         // GET: Shopping
         public ShoppingController()
         {
-            objBudgetAmazonEntities = new BudgetAmazonEntities1();
+            objBudgetAmazonEntities = new BudgetAmazonEntities3();
         }
         public ActionResult Index()
         {
