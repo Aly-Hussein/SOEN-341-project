@@ -35,12 +35,11 @@
 
         $.ajax({
             async: true,
-            dataType: 'JSON',
             type: 'POST',
             contentType: false,
             processDate: false,
-            url: '/Item/Index',
             data: formDate,
+            url: '/Item/Index',
             success: function (data) {
                 if (data.success) {
                     alert(data.Message);
@@ -100,7 +99,7 @@
     </div>
 
     <div>
-        <input type="button" value="Save" name="save" class="btn btn-primary" id="btnSave"/>
+        <input type="button" value="Save" name="save" class="btn btn-primary" id="btnSave" onclick="SaveItem()"/>
         &nbsp;
         <input type="button" value="Reset" name="reset" class="btn btn-danger" id="btnReset"/>
     </div>
