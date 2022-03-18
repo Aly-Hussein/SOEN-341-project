@@ -47,7 +47,7 @@ namespace BudgetAmazon.Controllers
             objBudgetAmazonEntities.Items.Add(objItem);
             objBudgetAmazonEntities.SaveChanges();
 
-            return Json(data:new {Success = true, Message = "Item is added Successfully."}, JsonRequestBehavior.AllowGet);
+            return Json(new {Success = true, Message = "Item is added Successfully."}, JsonRequestBehavior.AllowGet);
         }
     }
 }

@@ -39,5 +39,7 @@ namespace BudgetAmazon.Models
         public virtual DbSet<ProductModelProductDescription> ProductModelProductDescriptions { get; set; }
         public virtual DbSet<SalesOrderDetail> SalesOrderDetails { get; set; }
         public virtual DbSet<SalesOrderHeader> SalesOrderHeaders { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
     }
 }

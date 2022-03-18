@@ -43,6 +43,25 @@
     <Property Name="ImagePath" Type="nvarchar" MaxLength="550" Nullable="false" />
     <Property Name="ItemPrice" Type="decimal" Precision="18" Scale="2" Nullable="false" />
   </EntityType>
+  <EntityType Name="OrderDetails">
+    <Key>
+      <PropertyRef Name="OrderDetailId" />
+    </Key>
+    <Property Name="OrderDetailId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderId" Type="int" Nullable="false" />
+    <Property Name="ItemId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Quantity" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="UnitPrice" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderDate" Type="datetime" Nullable="false" />
+    <Property Name="OrderNumber" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
   <EntityType Name="Address">
     <Key>
       <PropertyRef Name="AddressID" />
@@ -344,6 +363,8 @@
     <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ErrorLog" EntityType="Self.ErrorLog" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Items" EntityType="Self.Items" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrderDetails" EntityType="Self.OrderDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Address" EntityType="Self.Address" Schema="SalesLT" store:Type="Tables" />
     <EntitySet Name="Customer" EntityType="Self.Customer" Schema="SalesLT" store:Type="Tables" />
     <EntitySet Name="CustomerAddress" EntityType="Self.CustomerAddress" Schema="SalesLT" store:Type="Tables" />

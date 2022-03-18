@@ -223,6 +223,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Order.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrderDetail.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Product.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -248,6 +254,9 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModel\CategoryViewModel.cs" />
     <Compile Include="ViewModel\ItemViewModel.cs" />
+    <Compile Include="ViewModel\OrderDetailsModel.cs" />
+    <Compile Include="ViewModel\OrderModel.cs" />
+    <Compile Include="ViewModel\ShoppingCartModel.cs" />
     <Compile Include="ViewModel\ShoppingViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -327,6 +336,8 @@
     <Content Include="Views\Home\Service.cshtml" />
     <Content Include="Views\Item\Index.cshtml" />
     <Content Include="Views\Shopping\Index.cshtml" />
+    <Content Include="Views\Shared\_ShoppingCart.cshtml" />
+    <Content Include="Views\Shopping\ShoppingCart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

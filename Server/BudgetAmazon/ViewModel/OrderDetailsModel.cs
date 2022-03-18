@@ -7,5 +7,6 @@ namespace BudgetAmazon.ViewModel
 {
     public class OrderDetailsModel
     {
+     
     }
 }

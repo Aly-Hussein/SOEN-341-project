@@ -10,6 +10,9 @@
         $("#btnSave").click(function () {
             SaveItem();
         });
+        $("#btnReset").click(function () {
+            ResetItem();
+        });
     });
 
     function ResetItem() {
@@ -22,7 +25,7 @@
     }
 
     function SaveItem() {
-        var FormData = new FormData();
+        var formData = new FormData();
         formData.append("CategoryId", $("#CategoryId").val());
         formData.append("ItemCode", $("#ItemCode").val());
         formData.append("ItemName", $("#ItemName").val());
@@ -91,7 +94,7 @@
     <div class="col-md-4">
         <div class="form-group">
             Image Path :
-            @Html.TextBoxFor(model => model.ImagePath, new { type = "file", @class = "form-control", autocomplete = "Off" })
+            @Html.TextBoxFor(model => model.ImagePath, new { type = "file", @class = "form-control"})
 
         </div>
     </div>
@@ -99,6 +102,6 @@
     <div>
         <input type="button" value="Save" name="save" class="btn btn-primary" id="btnSave"/>
         &nbsp;
-        <input type="button" value="Reset" name="reset" class="btn btn-danger" />
+        <input type="button" value="Reset" name="reset" class="btn btn-danger" id="btnReset"/>
     </div>
 </div>

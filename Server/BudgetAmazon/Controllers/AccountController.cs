@@ -15,6 +15,7 @@ namespace BudgetAmazon.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+        private BudgetAmazonEntities3 objBudgetAmazonEntities;
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
