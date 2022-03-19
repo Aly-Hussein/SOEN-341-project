@@ -37,8 +37,8 @@
             async: true,
             type: 'POST',
             contentType: false,
-            processDate: false,
-            data: formDate,
+            processData: false,
+            data: formData,
             url: '/Item/Index',
             success: function (data) {
                 if (data.success) {
@@ -99,7 +99,7 @@
     </div>
 
     <div>
-        <input type="button" value="Save" name="save" class="btn btn-primary" id="btnSave" onclick="SaveItem()"/>
+        <input type="button" value="Save" name="save" class="btn btn-primary" id="btnSave"/>
         &nbsp;
         <input type="button" value="Reset" name="reset" class="btn btn-danger" id="btnReset"/>
     </div>
