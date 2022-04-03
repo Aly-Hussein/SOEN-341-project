@@ -424,6 +424,42 @@ namespace BudgetAmazon.Controllers
             base.Dispose(disposing);
         }
 
+        public async void loginTest()
+        {
+            string pass = "ThisWorks!";
+            string email = "IThink@gmail.com";
+   
+            var result = await SignInManager.PasswordSignInAsync(email, pass, false, shouldLockout: false);
+            if (result == SignInStatus.Success)
+                pass= "thisfails";//test passed
+            result = await SignInManager.PasswordSignInAsync(email, pass, false, shouldLockout: false);
+            if (result == SignInStatus.Failure)
+                pass = "thisneedstobechanged";//test passed
+
+        }
+
+        public async void RegisterTest()
+        {
+            RegisterViewModel model = new RegisterViewModel();
+            model.Email = "IThink@gmail.com";
+            model.Password = "ThisWorks!";
+            var user = new ApplicationUser { UserName = model.Email, Email = model.Email};
+            var result = await UserManager.CreateAsync(user, model.Password);
+            if(result.Succeeded)
+            {
+                //delete the user and restart as we cannot test with the same email
+                //this can be implemented when we get everything to work
+                model.Password = "Thisfails";
+
+            }
+            result = await UserManager.CreateAsync(user, model.Password);
+            if (!result.Succeeded)
+            {
+                //delete anything with user if it inputs (it shouldnt)
+                //result failed, test passed :)
+            }
+        }
+
         #region Helpers
         // Used for XSRF protection when adding external logins
         private const string XsrfKey = "XsrfId";
