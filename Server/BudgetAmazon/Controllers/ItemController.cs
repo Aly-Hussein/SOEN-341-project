@@ -49,5 +49,29 @@ namespace BudgetAmazon.Controllers
 
             return Json(new {Success = true, Message = "Item is added Successfully."}, JsonRequestBehavior.AllowGet);
         }
+
+
+
+        [HttpPost]
+        public JsonResult TestAddItemFail()
+        {
+            // send all empty fields, this will fail and let us know the item cannot be added
+            Item objItem = new Item();
+            objItem.ImagePath = "";
+            objItem.CategoryId = -5;
+            objItem.Description = "";
+            objItem.ItemCode = "";
+            objItem.ItemId = Guid.NewGuid();
+            objItem.ItemName = "";
+            objItem.ItemPrice = -2;
+            objBudgetAmazonEntities.Items.Add(objItem);
+            objBudgetAmazonEntities.SaveChanges();
+
+            return Json(new { Success = true, Message = "Item is added Successfully." }, JsonRequestBehavior.AllowGet);
+        }
+
+
     }
+
+
 }
