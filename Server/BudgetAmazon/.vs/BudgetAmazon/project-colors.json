@@ -5,7 +5,12 @@
       "ProjectGuid": "f60a9515-e514-4a01-aea5-90ed4d49e61a",
       "DisplayName": "BudgetAmazon",
       "ColorIndex": 0
+    },
+    "c85762c9-07b5-4629-983f-6db6e91056e1": {
+      "ProjectGuid": "c85762c9-07b5-4629-983f-6db6e91056e1",
+      "DisplayName": "BudgetAmazon.Tests",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

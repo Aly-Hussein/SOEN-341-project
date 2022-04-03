@@ -35,17 +35,19 @@
 
         $.ajax({
             async: true,
+            dataType: 'JSON',
             type: 'POST',
             contentType: false,
             processData: false,
-            data: formData,
             url: '/Item/Index',
-            success: function (data) {
-                if (data.success) {
+            data: formData,
+            success: function (data)
+            {
+                if (data.Success)
+                {
                     alert(data.Message);
                     ResetItem();
                 }
-                
             },
             error: function (data) {
                 alert('There is a problem adding items.');
