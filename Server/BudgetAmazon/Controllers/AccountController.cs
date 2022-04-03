@@ -424,40 +424,64 @@ namespace BudgetAmazon.Controllers
             base.Dispose(disposing);
         }
 
-        public async void loginTest()
+        public async Task<bool> loginTestAsync()
         {
-            string pass = "ThisWorks!";
-            string email = "IThink@gmail.com";
-   
-            var result = await SignInManager.PasswordSignInAsync(email, pass, false, shouldLockout: false);
-            if (result == SignInStatus.Success)
-                pass= "thisfails";//test passed
-            result = await SignInManager.PasswordSignInAsync(email, pass, false, shouldLockout: false);
-            if (result == SignInStatus.Failure)
-                pass = "thisneedstobechanged";//test passed
+            LoginViewModel model = new LoginViewModel();
+            model.Email = "IThink@gmail.com";
+            model.Password = "ThisWorks!";
+
+            LoginViewModel[] loginArr = new LoginViewModel[5];
+            loginArr[0] = model;
+            model.Email = "IThink";
+            model.Password = "thisdoesnt";
+
+            loginArr[1] = model;
+
+            model.Email = "IThink";
+            model.Password = "ThisDoesntWork!";
+            loginArr[2] = model;
+
+            try
+            {
+                for (int i = 0; i < 3; i++) ;
+                   // await Login(loginArr[i]);
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
 
         }
 
-        public async void RegisterTest()
+        public async Task<bool> RegisterTestAsync()
         {
             RegisterViewModel model = new RegisterViewModel();
             model.Email = "IThink@gmail.com";
             model.Password = "ThisWorks!";
-            var user = new ApplicationUser { UserName = model.Email, Email = model.Email};
-            var result = await UserManager.CreateAsync(user, model.Password);
-            if(result.Succeeded)
-            {
-                //delete the user and restart as we cannot test with the same email
-                //this can be implemented when we get everything to work
-                model.Password = "Thisfails";
 
-            }
-            result = await UserManager.CreateAsync(user, model.Password);
-            if (!result.Succeeded)
+            RegisterViewModel[] registerArr = new RegisterViewModel[5];
+            registerArr[0] = model;
+            model.Email = "IThink";
+            model.Password = "thisdoesnt";
+
+            registerArr[1] = model;
+
+            model.Email = "IThink";
+            model.Password = "ThisDoesntWork!";
+            registerArr[2] = model;
+
+
+            try
             {
-                //delete anything with user if it inputs (it shouldnt)
-                //result failed, test passed :)
+                for(int i = 0; i < 3; i++)
+                    await Register(registerArr[i]);
             }
+            catch
+            {
+                return false;
+            }
+            return true;
         }
 
         #region Helpers
