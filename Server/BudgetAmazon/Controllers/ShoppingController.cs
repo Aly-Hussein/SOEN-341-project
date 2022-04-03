@@ -103,5 +103,18 @@ namespace BudgetAmazon.Controllers
             Session["CartCounter"] = null;
             return RedirectToAction("Index");
         }
+
+        public bool TestShoppingCart()
+        {
+            try
+            {
+                AddOrder();
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }
