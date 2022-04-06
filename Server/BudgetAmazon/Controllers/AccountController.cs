@@ -1,16 +1,13 @@
-﻿using System;
-using System.Globalization;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using System.Web;
-using System.Web.Mvc;
+﻿using BudgetAmazon.Models;
+using BudgetAmazon.ViewModel;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using BudgetAmazon.Models;
-using BudgetAmazon.ViewModel;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Web;
+using System.Web.Mvc;
 
 namespace BudgetAmazon.Controllers
 {
@@ -73,6 +70,7 @@ namespace BudgetAmazon.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
+            bool userExists = false;
             IEnumerable<AccountViewModel> listOfShoppingViewModels = (from objItem in objBudgetAmazonEntities.Accounts
                                                                        select new AccountViewModel()
                                                                        {
@@ -82,6 +80,15 @@ namespace BudgetAmazon.Controllers
                                                                            CustomerId = objItem.CustomerId
                                                                        }
                                                                       ).ToList();
+
+            foreach (AccountViewModel item in listOfShoppingViewModels)
+            {
+                if (item.Email == model.Email && item.Password == model.Password)
+                {
+                    userExists = true;
+                    break;
+                }
+            }
             return View(model);
             
         }
