@@ -17,5 +17,6 @@ namespace BudgetAmazon.Models
         public int OrderId { get; set; }
         public System.DateTime OrderDate { get; set; }
         public string OrderNumber { get; set; }
+        public System.Guid CustomerId { get; set; }
     }
 }

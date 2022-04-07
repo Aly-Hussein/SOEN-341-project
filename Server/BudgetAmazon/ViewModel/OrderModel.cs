@@ -10,5 +10,6 @@ namespace BudgetAmazon.ViewModel
         public int OrderId { get; set; }
         public DateTime OrderDate { get; set; }
         public string OrderNumber { get; set; }
+        public Guid CustomerId { get; set; }
     }
 }

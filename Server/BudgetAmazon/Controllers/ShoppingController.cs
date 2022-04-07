@@ -108,7 +108,8 @@ namespace BudgetAmazon.Controllers
             Order orderObj = new Order()
             {
                 OrderDate = DateTime.Now,
-                OrderNumber = String.Format("{0:ddmmyyyyHHmmsss}", DateTime.Now)
+                OrderNumber = String.Format("{0:ddmmyyyyHHmmsss}", DateTime.Now),
+                CustomerId = (Guid)Session["log"]
             };
             objBudgetAmazonEntities.Orders.Add(orderObj);
             objBudgetAmazonEntities.SaveChanges();

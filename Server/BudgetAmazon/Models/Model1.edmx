@@ -75,6 +75,7 @@
           <Property Name="OrderId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="OrderDate" Type="datetime" Nullable="false" />
           <Property Name="OrderNumber" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="CustomerId" Type="uniqueidentifier" Nullable="false" />
         </EntityType>
         <EntityType Name="Address">
           <Key>
@@ -891,6 +892,7 @@
           <Property Name="OrderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="OrderNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CustomerId" Type="Guid" Nullable="false" />
         </EntityType>
         <EntityType Name="Account">
           <Key>
@@ -1125,6 +1127,7 @@
           <EntitySetMapping Name="Orders">
             <EntityTypeMapping TypeName="BudgetAmazonModel.Order">
               <MappingFragment StoreEntitySet="Orders">
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
                 <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
                 <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
                 <ScalarProperty Name="OrderId" ColumnName="OrderId" />

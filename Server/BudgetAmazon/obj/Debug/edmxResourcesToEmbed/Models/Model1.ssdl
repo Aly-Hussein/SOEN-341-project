@@ -70,6 +70,7 @@
     <Property Name="OrderId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="OrderDate" Type="datetime" Nullable="false" />
     <Property Name="OrderNumber" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CustomerId" Type="uniqueidentifier" Nullable="false" />
   </EntityType>
   <EntityType Name="Address">
     <Key>

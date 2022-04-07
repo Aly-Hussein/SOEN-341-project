@@ -219,6 +219,7 @@
     <EntitySetMapping Name="Orders">
       <EntityTypeMapping TypeName="BudgetAmazonModel.Order">
         <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
           <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
           <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
           <ScalarProperty Name="OrderId" ColumnName="OrderId" />
