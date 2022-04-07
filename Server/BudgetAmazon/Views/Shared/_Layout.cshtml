@@ -152,7 +152,7 @@
         <div class="wrapper">
             <div class="logo">
                 <a href="/Home/Index"><img src="~/images/budgetAmazon.png" alt=""></a>
-</div>
+            </div>
             <ul class="nav-area">
                 <li>@Html.ActionLink("Home", "Index", "Home") </li>
                 <li> @Html.ActionLink("About", "About", "Home") </li>
@@ -175,12 +175,13 @@
 
                 }
                 <li>@Html.ActionLink("Cart", "ShoppingCart", "Shopping")</li>
-                @using (Html.BeginForm("Search", "Shopping", FormMethod.Get))
-                {
-                        <li><input type="search" class="form-control" name="keyword" id="keyword" /></li>
-                        <li><input type="submit" class="btn btn-secondary" value="Search" /></li>
+                <div class="navbar-Right">
+                    @using (Html.BeginForm("Search", "Shopping", FormMethod.Get))
+                    {
+                    <li><input type="search" class="form-control" name="keyword" id="keyword" /></li>
+                    <li><input type="submit" class="btn btn-secondary" value="Search" /></li>
                 }
-
+            </div>
             </ul>
         </div>
     </div>
