@@ -94,6 +94,8 @@ namespace BudgetAmazon.Controllers
                     existingUser.Email = item.Email;
                     existingUser.Password = item.Password;
                     existingUser.IsAdmin = item.IsAdmin;
+                    if (item.IsAdmin == true)
+                        Session["Admin"] = 1;
                     Session["log"] = item.CustomerId;
                     return RedirectToAction("Index", "Home");
                 }
