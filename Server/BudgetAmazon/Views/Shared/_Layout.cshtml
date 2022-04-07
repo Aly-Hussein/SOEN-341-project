@@ -175,7 +175,11 @@
 
                 }
                 <li>@Html.ActionLink("Cart", "ShoppingCart", "Shopping")</li>
-
+                @using (Html.BeginForm("Search", "Shopping", FormMethod.Get))
+                {
+                        <li><input type="search" class="form-control" name="keyword" id="keyword" /></li>
+                        <li><input type="submit" class="btn btn-secondary" value="Search" /></li>
+                }
 
             </ul>
         </div>

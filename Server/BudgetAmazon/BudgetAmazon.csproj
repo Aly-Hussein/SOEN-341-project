@@ -344,6 +344,7 @@
     <Content Include="Views\Shopping\Index.cshtml" />
     <Content Include="Views\Shared\_ShoppingCart.cshtml" />
     <Content Include="Views\Shopping\ShoppingCart.cshtml" />
+    <Content Include="Views\Shopping\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

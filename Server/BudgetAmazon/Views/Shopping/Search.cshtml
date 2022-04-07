@@ -1,0 +1,58 @@
+﻿@model IEnumerable<BudgetAmazon.ViewModel.ShoppingViewModel>
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<h1>Search Results:</h1>
+@{
+    if (ViewBag.Search == null)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ItemName)
+                    </th>
+                    <th>
+                        Color
+                    </th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@Url.Content(@item.ImagePath)" width="150px" height="150px" />
+                        </td>
+                        <td>
+                            <a href="/Bikes/Product/@item.ItemId">@item.</a>
+                        </td>
+                        <td>@String.Format("{0:C}", item.ItemPrice)</td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <h4>Sorry, we could not find any results matching "@ViewBag.Search"</h4>
+        <br />
+        <h3>Search Tips</h3>
+        <ul>
+            <li>
+                Check your spelling and try again
+            </li>
+            <li>
+                Try a similar but different search term
+            </li>
+            <li>
+                Keep your search terms simple
+            </li>
+        </ul>
+    }
+}
+
