@@ -31,9 +31,9 @@
  
  To develop a simplified version of Amazon / an online shopping website.
  
- Two types of users can register: Sellers and Buyers.
+ Two types of users can register: Vendors and Buyers.
  
- Sellers can add, modify or remove their products, and view total sales.
+ Vendors can add, modify or remove their products, and view total sales.
  
  Buyers can browse through product categories, click on products, select quantities and add to cart, modify their cart and purchase items.
  
@@ -45,4 +45,5 @@
  
 We want to create an online store that allows people to browse through items, add them to their cart, edit their cart if needed, and then proceed to checkout to purchase the items.
 
-The Buyer will have access to the products detail, the sellers name, the availability of the product (number of stocks) and the price of the item.
+The Buyer will have access to the products detail, the vendors name, the availability of the product (number of stocks) and the price of the item.
+The Vendor will have access to editing the products and product details, view sales details and customer information.
