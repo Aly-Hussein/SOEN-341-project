@@ -1,4 +1,46 @@
-﻿@{
+﻿@model BudgetAmazon.Models.ContactModel
+@{
     ViewBag.Title = "Contact";
 }
-<h2>Contact</h2>
+
+<div class="text-left">
+    <h1 class="display-4">How to contact BudgetAmazon</h1>
+    <br />
+    <p><b>Email</b>: budgetamazon@gmail.com</p>
+    <p><b>Phone</b>: (123) 456-7890</p>
+    <p><b>Address</b>: 21 275 Rue Lakeshore Road, Sainte-Anne-de-Bellevue, QC H9X 3L9</p>
+    <p><b>Customer Service Hours</b>: Monday to Friday - 8:30AM to 5:30PM</p>
+</div>
+<br />
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.1454063104134!2d-73.94391978419779!3d45.40640734531856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc93845583f4869%3A0xf81ccc3a971d32b9!2s21275%20Lakeshore%20Dr%2C%20Sainte-Anne-de-Bellevue%2C%20QC%20H9X%203L9!5e0!3m2!1sen!2sca!4v1572366838892!5m2!1sen!2sca" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<br />
+<br />
+<br />
+<h2 class="display-4">Send us an email</h2>
+@using (Html.BeginForm("Index", "Home"))
+{
+    @Html.Label("First name")
+    <br />
+    @Html.TextBoxFor(model => model.FirstName)
+    @Html.ValidationMessageFor(model => model.FirstName);
+    <br />
+    @Html.Label("Last name")
+    <br />
+    @Html.TextBoxFor(model => model.LastName)
+    @Html.ValidationMessageFor(model => model.LastName);
+    <br />
+    @Html.LabelFor(model => model.Email)
+    <br />
+    @Html.TextBoxFor(model => model.Email)
+    @Html.ValidationMessageFor(model => model.Email);
+    <br />
+    @Html.LabelFor(model => model.Comments)
+    <br />
+    @Html.TextAreaFor(model => model.Comments)
+    @Html.ValidationMessageFor(model => model.Comments);
+    <br />
+    <br />
+    <div class="g-recaptcha" data-sitekey="6LejE8EUAAAAABR1BQR_6kVN-EeKJjRciyuPaZak"></div>
+    <br />
+    <button type="submit">Submit</button>
+}

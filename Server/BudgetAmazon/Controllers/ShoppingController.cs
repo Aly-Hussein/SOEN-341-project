@@ -17,6 +17,33 @@ namespace BudgetAmazon.Controllers
             objBudgetAmazonEntities = new BudgetAmazonEntities3();
             listOfShoppingCartModels = new List<ShoppingCartModel>();
         }
+
+        public ActionResult Search(string keyword)
+        {
+            IEnumerable<ShoppingViewModel> listOfShoppingViewModels = (from objItem in objBudgetAmazonEntities.Items
+                                                                       join
+                                                                       objCate in objBudgetAmazonEntities.Categories
+                                                                       on objItem.CategoryId equals objCate.CategoryId
+                                                                       where objItem.ItemName == keyword
+                                                                       select new ShoppingViewModel()
+                                                                       {
+                                                                           ImagePath = objItem.ImagePath,
+                                                                           ItemName = objItem.ItemName,
+                                                                           Description = objItem.Description,
+                                                                           ItemPrice = objItem.ItemPrice,
+                                                                           ItemId = objItem.ItemId,
+                                                                           Category = objCate.CategoryName,
+                                                                           ItemCode = objItem.ItemCode
+                                                                       }
+                                                                       ).ToList();
+            if (listOfShoppingViewModels.Count() == 0)
+            {
+                ViewBag.Search = keyword;
+            }
+            return View(listOfShoppingViewModels);
+        }
+
+
         public ActionResult Index()
         {
             IEnumerable<ShoppingViewModel> listOfShoppingViewModels = (from objItem in objBudgetAmazonEntities.Items
