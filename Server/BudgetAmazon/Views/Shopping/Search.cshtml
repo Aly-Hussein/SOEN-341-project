@@ -2,7 +2,30 @@
 @{
     ViewData["Title"] = "Search Results";
 }
+<script type="text/javascript">
+    function AddToCart(item) {
+        var itemId = $(item).attr("itemid");
+        var formData = new FormData();
+        formData.append("ItemId", itemId);
 
+        $.ajax({
+            async: true,
+            type: 'POST',
+            contentType: false,
+            processData: false,
+            data: formData,
+            url: '/Shopping/Index',
+            success: function (data) {
+                if (data.Success) {
+                    $("#cartItem").text("Cart(" + data.Counter + ")");
+                }
+            },
+            error: function () {
+                alert("There is some problem.");
+            }
+        });
+    }
+</script>
 <h1>Search Results:</h1>
 @{
     if (ViewBag.Search == null)
@@ -14,25 +37,28 @@
                     <th>
                         @Html.DisplayNameFor(model => model.ItemName)
                     </th>
-                    <th>
-                        Color
-                    </th>
                     <th>Price</th>
+                    <th>Add to Cart</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (var item in Model)
                 {
-                    <tr>
-                        <td>
-                            <img src="@Url.Content(@item.ImagePath)" width="150px" height="150px" />
-                        </td>
-                        <td>
-                            <a href="/Bikes/Product/@item.ItemId">@item.</a>
-                        </td>
-                        <td>@String.Format("{0:C}", item.ItemPrice)</td>
+                <tr>
+                    <td>
+                        <img src="@Url.Content(@item.ImagePath)" width="150px" height="150px" />
+                    </td>
+                    <td>
+                        @item.ItemName
+                    </td>
+                    <td>@String.Format("{0:C}", item.ItemPrice)</td>
+                    <td>
+                        <div class="col-md-4" style="text-align: right; margin-bottom: 10px; border-top: 2px solid maroon; padding: 2px">
+                            <input type="button" name="AddToCart" value="Add to Cart" class="btn btn-primary" itemid="@item.ItemId" id="btnAddToCart" onclick="AddToCart(this)" />
+                        </div>
+                    </td>
 
-                    </tr>
+                </tr>
                 }
             </tbody>
         </table>
