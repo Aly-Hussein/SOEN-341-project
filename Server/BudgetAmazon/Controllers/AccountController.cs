@@ -227,6 +227,7 @@ namespace BudgetAmazon.Controllers
 
         public ActionResult Logout()
         {
+            Session["Admin"] = null;
             Session["log"] = null;
             return View();
         }
@@ -235,6 +236,7 @@ namespace BudgetAmazon.Controllers
         [HttpPost]
         public async Task<ActionResult> Logout(AccountViewModel acc)
         {
+            Session["Admin"] = null;
             Session["log"] = null;
             return RedirectToAction("Index", "Home");
 
