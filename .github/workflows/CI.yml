@@ -27,7 +27,7 @@ jobs:
       - name: Build
         working-directory: ./BudgetAmazon.Tests
         run: |
-          dotnet build --no-restore                     
+          msbuild BudgetAmazon.Tests.csproj                   
       - name: Test
         working-directory: ./BudgetAmazon.Tests
         run: |
