@@ -9,6 +9,8 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using BudgetAmazon.Models;
+using System.Collections.Generic;
+using BudgetAmazon.ViewModel;
 
 namespace BudgetAmazon.Controllers
 {
@@ -71,27 +73,28 @@ namespace BudgetAmazon.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
 
-            // This doesn't count login failures towards account lockout
-            // To enable password failures to trigger account lockout, change to shouldLockout: true
-            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
-            switch (result)
+            bool userExists = false;
+            IEnumerable<AccountViewModel> listOfShoppingViewModels = (from objItem in objBudgetAmazonEntities.Accounts
+                                                                      select new AccountViewModel()
+                                                                      {
+                                                                          Email = objItem.Email,
+                                                                          Password = objItem.Password,
+                                                                          IsAdmin = objItem.IsAdmin,
+                                                                          CustomerId = objItem.CustomerId
+                                                                      }
+                                                                      ).ToList();
+
+            foreach (AccountViewModel item in listOfShoppingViewModels)
             {
-                case SignInStatus.Success:
-                    return RedirectToLocal(returnUrl);
-                case SignInStatus.LockedOut:
-                    return View("Lockout");
-                case SignInStatus.RequiresVerification:
-                    return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
-                case SignInStatus.Failure:
-                default:
-                    ModelState.AddModelError("", "Invalid login attempt.");
-                    return View(model);
+                if (item.Email == model.Email && item.Password == model.Password)
+                {
+                    userExists = true;
+                    break;
+                }
             }
+            return View(model);
+
         }
 
         //
