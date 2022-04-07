@@ -62,7 +62,8 @@ namespace BudgetAmazon.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
-            ViewBag.ReturnUrl = returnUrl;
+            if (Session["log"] != null)
+                Logout();
             return View();
         }
 
@@ -93,7 +94,7 @@ namespace BudgetAmazon.Controllers
                     existingUser.Email = item.Email;
                     existingUser.Password = item.Password;
                     existingUser.IsAdmin = item.IsAdmin;
-                    Session["log"] = "Logged";
+                    Session["log"] = item.CustomerId;
                     return RedirectToAction("Index", "Home");
                 }
 
@@ -224,6 +225,7 @@ namespace BudgetAmazon.Controllers
 
         public ActionResult Logout()
         {
+            Session["log"] = null;
             return View();
         }
         //
