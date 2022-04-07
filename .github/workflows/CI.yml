@@ -17,7 +17,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: 4.8.x
+          dotnet-version: 5.0.x
       - name: Install Report Generator
         run: dotnet tool install -g dotnet-reportgenerator-globaltool
       - name: Restore dependencies
