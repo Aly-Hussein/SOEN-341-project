@@ -33,9 +33,17 @@ namespace BudgetAmazon.Controllers
         [HttpPost]
         public JsonResult Index(ItemViewModel objItemViewModel) 
         {
-            string NewImage = Guid.NewGuid() + Path.GetExtension(objItemViewModel.ImagePath.FileName);
-            objItemViewModel.ImagePath.SaveAs(Server.MapPath("~/Images/" + NewImage));
-
+            string NewImage = "";
+            if (objItemViewModel.ImagePath == null)
+            {
+                NewImage = "Image1.jpg";
+            }
+            else
+            {
+                NewImage = Guid.NewGuid() + Path.GetExtension(objItemViewModel.ImagePath.FileName);
+                objItemViewModel.ImagePath.SaveAs(Server.MapPath("~/Images/" + NewImage));
+            }
+            
             Item objItem = new Item();
             objItem.ImagePath = "~/Images/" + NewImage;
             objItem.CategoryId = objItemViewModel.CategoryId;
@@ -44,8 +52,12 @@ namespace BudgetAmazon.Controllers
             objItem.ItemId = Guid.NewGuid();
             objItem.ItemName = objItemViewModel.ItemName;
             objItem.ItemPrice = objItemViewModel.ItemPrice;
-            objBudgetAmazonEntities.Items.Add(objItem);
-            objBudgetAmazonEntities.SaveChanges();
+
+            if (NewImage != "Image1.jpg")
+            {
+                objBudgetAmazonEntities.Items.Add(objItem);
+                objBudgetAmazonEntities.SaveChanges();
+            }
 
             return Json(new {Success = true, Message = "Item is added Successfully."}, JsonRequestBehavior.AllowGet);
         }
