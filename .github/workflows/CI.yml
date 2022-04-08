@@ -27,8 +27,8 @@ jobs:
       - name: Build
         working-directory: ./BudgetAmazon.Tests
         run: |
-          msbuild BudgetAmazon.Tests.csproj /p:platform="Any CPU" /p:configuration="Release"
+          msbuild BudgetAmazon.Tests.csproj /p:platform="AnyCPU" /p:configuration="Debug"
       - name: Test
         working-directory: ./BudgetAmazon.Tests
         run: |
-          vstest.console.exe .\bin\Release\BudgetAmazon.Tests.dll         
+          vstest.console.exe .\bin\Debug\BudgetAmazon.Tests.dll         
