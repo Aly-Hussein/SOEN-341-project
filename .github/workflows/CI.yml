@@ -21,9 +21,9 @@ jobs:
       - name: Setup VSTest
         uses: darenm/Setup-VSTest@v1
       - name: Restore dependencies
-        working-directory: ./BudgetAmazon.Tests
+        working-directory: ./BudgetAmazon
         run: |
-          nuget restore BudgetAmazon.Tests.csproj
+          nuget restore BudgetAmazon.sln
       - name: Build
         working-directory: ./BudgetAmazon.Tests
         run: |
